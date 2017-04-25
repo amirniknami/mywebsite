@@ -1,0 +1,41 @@
+.js--portfolio-image{
+       opacity: .9 !important;
+       transform:scale(1.8);
+}
+
+.sticky{
+    padding:15px;
+    height:auto;
+    background:rgba(40,44,52,.9);
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    
+
+      img{
+            height:60px;
+            width:60px;
+            padding-top:20px;
+        }
+
+     .top-nav:after{
+         content: "";
+         display: block;
+         clear: both;
+     }
+
+    .top-nav li a{
+        color:rgba(255,255,255,1) !important;
+    }
+}
+
+.js--mobile-nav-show{
+    transform: translateY(0) !important;
+    transition:all .25s;
+}
+
+
+
+
+

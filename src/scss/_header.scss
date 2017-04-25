@@ -1,0 +1,125 @@
+header{
+    width: 100%;
+    min-height: 600px;
+    height:100vh;
+    background-image:  url(../img/header-bg-1.jpg);
+    background-color: #282c34;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+ .mobile-menu{
+           display:none;
+           color:$main-color;
+           font-size:1.2rem;
+           cursor:pointer;
+           i{
+               font-size:2rem;
+           }
+          }
+
+
+          .mobile-nav{
+              display: none;
+          }
+   
+}
+
+
+.header-content{
+    position: absolute;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+
+    p{
+        color:white;
+        font-size:2.5rem;
+        margin-bottom: 10px;
+        font-weight: 100;
+        text-shadow: 1px 1px 1px rgba(255,255,255,.3);
+        word-spacing: 4px;
+        letter-spacing: 1px;
+    }
+
+   .header-btn{
+       margin-top:30px;
+       a{
+            display: inline-block;
+            padding: 10px 40px;
+            font-size: 1.1rem;
+            font-weight: 300;
+            text-decoration: none;
+            border-radius: 200px;
+            transition: all 0.2s;
+            cursor:pointer;            
+           
+             &:last-child{
+                color:$main-color;
+                border: 1px solid $main-color;
+       }
+        span{
+                    margin-right:5px;
+                }
+        
+        &:first-child{
+           color:white;
+           background:rgba(0,150,136,.4);
+           margin-right: 10px;
+           
+        }
+
+       }
+     
+   }
+
+}
+
+  .top-header{
+       width:100%;
+       padding:20px;
+       padding-top: 50px;
+       display: flex;
+       justify-content: space-around;
+       align-content: center;
+       z-index: 200 !important;
+
+       
+
+       img{
+           width: 100px;
+           height:100px;
+           margin-top: -20px;
+       }
+
+
+       nav.top-nav{
+    ul li {
+       display:inline-block;
+       margin-right: 15px;
+       padding: 5px 5px;
+
+       &:last-child{
+           border: 1px solid $main-color;
+       }
+
+       a{
+           color: white;
+           font-family: lato;
+           font-weight: 300;
+           text-shadow: 1px 1px 1px rgba(255,255,255,.3);           
+           font-size: 1rem;
+           cursor:pointer;
+           span{
+               padding-right: 5px;
+               color: $main-color;
+               opacity:.8;
+           }
+        }
+    }
+
+}
+
+   }

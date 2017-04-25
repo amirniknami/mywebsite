@@ -1,0 +1,71 @@
+#portfolio{
+
+    background-image: url('../img/header-bg-2.jpg');
+    background-color:#282c34;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+
+    h2 {
+        color:white;
+    }
+
+    .card-portfolio{
+        width:30%;
+        padding: 20px;
+
+        .fa{
+            color:$main-color;
+        }
+        
+        img{
+            width:100%;
+            height:auto;
+            opacity: .35;
+            transition:opacity .4s ,transform .4s;
+            cursor:pointer;
+        }
+
+        .rating{
+            width:100%;
+        }
+       
+
+        h3 {
+            margin-top:10px;
+            
+           a{
+                color:$main-color;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 1.5rem;
+           }
+        }
+
+        p{
+            text-align: justify;
+            color:white;
+            padding: 0;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+       a.card-link{
+                background:rgba(0,150,136,.4);
+                padding:5px 15px;
+                color:white;
+                text-decoration: none;
+                font-weight: 300;
+                font-size: 1.1rem;
+                border-radius: 5px;
+              
+
+                span{
+                    font-size:.68rem;
+                }
+         }
+
+    }
+
+    
+}

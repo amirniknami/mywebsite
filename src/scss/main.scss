@@ -1,6 +1,11 @@
-$primary : red;
-body{
-    background: $primary;
-    color:blue;
-    font-size: 1.6em;
-}
+@import 'normalize';
+@import 'variables';
+@import 'base';
+@import 'header';
+@import 'about';
+@import 'resume';
+@import 'portfolio';
+@import 'contact';
+@import 'footer';
+@import 'jsclass';
+@import "query";
