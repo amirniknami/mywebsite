@@ -1,135 +1,124 @@
-@media screen and (max-width:850px){
+@media screen and (max-width:850px) {
+  :root {
+    font-size: $font-size-tablet;
+  }
 
-  
-
-    :root{
-        font-size:$font-size-tablet;
-    }
-.top-header{
+  .top-header {
     justify-content: space-between !important;
-    padding:40px 40px;
-}
+    padding: 40px;
+  }
 
-    nav.top-nav{
-        display:none;
-    }
-   
-   header .mobile-menu{
-       display: block;
-   }
+  nav.top-nav {
+    display: none;
+  }
 
-   .header-btn a {
-       margin-bottom:25px;
-   }
+  header .mobile-menu {
+    display: block;
+  }
 
-   
-.mobile-nav{
+  .header-btn a {
+    margin-bottom: 25px;
+  }
+
+  .mobile-nav {
     display: block !important;
     position: fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    height:auto;
-    transform:translateY(100%);
-    z-index:999;
-    background:rgba(40, 44, 52,.98);
-    transition:all .25s;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transform: translateY(100%);
+    z-index: 999;
+    background: rgba(40, 44, 52,.98);
+    transition: all 0.25s;
 
-    ul{
-        width:100%;
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    ul {
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
-     
-     ul li {
-         padding:15px;
-         width:48%;
-         float:left;
-         list-style: none;
 
+    ul li {
+      padding: 15px;
+      width: 48%;
+      float: left;
+      list-style: none;
 
-         p{
-             color:darken($main-color,8%);
-             padding-top:10px;
-         }
+      p {
+        color: darken($main-color,8%);
+        padding-top: 10px;
+      }
 
-         a{
-             font-size:1.2rem;
-             color:rgba(255,255,255,.9);
-             cursor:pointer;
+      a {
+        font-size: 1.2rem;
+        color: rgba(255,255,255,.9);
+        cursor: pointer;
 
-             span{
-                 margin-right: 10px;
-                 color:$main-color;
-             }
-         }
-     }
-}
-
- 
-  
-
-}
-
-@media screen and (max-width:1025px){
-    .flex-container{
-        justify-content: space-between;
-    }
-   .card-resume{
-       width:48%!important;
-   }
-
-     .card-portfolio{
-       width:48% !important;
-   }
-
-}
-
-
-@media screen and (max-width:760px){
-
-    #about .description{
-        flex-direction: column;
-        
-        p,img{
-            margin:auto;
+        span {
+          margin-right: 10px;
+          color: $main-color;
         }
-        p{
-            width:70%;
-        }
-
-        img{
-            width:40%;
-            height:40%;
-        }
+      }
     }
-
-    footer .footer-nav{
-        margin-bottom:40px !important;
-    }
-
-    footer .copyright{
-        margin-top:30px;
-    }
-   
+  }
 }
+@media screen and (max-width:1025px) {
+  .flex-container {
+    justify-content: space-between;
+  }
 
-@media screen and (max-width:600px){
-    :root{
-        font-size:$font-size-phone;
-    }
-     
-     .flex-container{
-         justify-content: space-around !important;
-     }
+  .card-resume {
+    width: 48%!important;
+  }
 
-    .card-portfolio{
-         justify-content: space-around !important;
-        width:100% !important;
+  .card-portfolio {
+    width: 48% !important;
+  }
+}
+@media screen and (max-width:760px) {
+  #about .description {
+    flex-direction: column;
+
+    img,
+    p {
+      margin: auto;
     }
-    .card-resume{
-        width:100% !important;
+
+    p {
+      width: 70%;
     }
+
+    img {
+      width: 40%;
+      height: 40%;
+    }
+  }
+
+  footer .footer-nav {
+    margin-bottom: 40px !important;
+  }
+
+  footer .copyright {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width:600px) {
+  :root {
+    font-size: $font-size-phone;
+  }
+
+  .flex-container {
+    justify-content: space-around !important;
+  }
+
+  .card-portfolio {
+    justify-content: space-around !important;
+    width: 100% !important;
+  }
+
+  .card-resume {
+    width: 100% !important;
+  }
 }
