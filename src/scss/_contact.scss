@@ -1,81 +1,69 @@
 #contact {
-  max-width: 700px;
-  margin: auto;
-
-  form {
-    width: 100%;
-    padding-top: 50px;
-
-    .form-group {
-      padding: 20px 0;
-      display: flex;
-      align-content: space-between;
-      width: 100%;
-
-      .form-checkbox {
-        color: $main-color;
-        border: 1px solid $main-color;
-        padding: 3px;
-      }
-
-      .btn-form {
-        color: white;
-        padding: 10px 40px;
-        background: $main-color;
-        text-decoration: none;
-      }
-
-      .form-control {
-        border: 1px solid $main-color;
-        width: 70%;
-        color: $main-color;
-        font-size: 1rem;
-
-        &:focus {
-          outline: none;
+    max-width: 700px;
+    margin: auto;
+    form {
+        width: 100%;
+        padding-top: 50px;
+        .form-group {
+            padding: 20px 0;
+            display: flex;
+            align-content: space-between;
+            width: 100%;
+            .form-checkbox {
+                color: $main-color;
+                border: 1px solid $main-color;
+                padding: 3px;
+            }
+            .btn-form {
+                color: white;
+                padding: 10px 40px;
+                background: $main-color;
+                text-decoration: none;
+            }
+            .form-control {
+                border: 1px solid $main-color;
+                width: 70%;
+                color: $main-color;
+                font-size: 1rem;
+                &:focus {
+                    outline: none;
+                }
+            }
+            label {
+                color: $main-text-color;
+                width: 25%;
+                span {
+                    color: #282C34;
+                    margin-right: 5px;
+                }
+            }
         }
-      }
-
-      label {
-        color: $main-text-color;
-        width: 25%;
-
-        span {
-          color: #282C34;
-          margin-right: 5px;
-        }
-      }
     }
-  }
-
-  input[type=checkbox] {
-    visibility: hidden;
-  }
-
-  .checkboxThree {
-    width: 60px;
-    height: 20px;
-    background: #e4e4e4;
-    border-radius: 50px;
-    position: relative;
-  }
-
-  .checkboxThree label {
-    display: block;
-    width: 30px !important;
-    height: 20px;
-    border-radius: 20px;
-    transition: all 0.5s ease;
-    cursor: pointer;
-    position: absolute;
-    left: 30px;
-    top: 0;
-    z-index: 1;
-    background: gray;
-  }
-
-  .checkboxThree input[type=checkbox]:checked + label {
-    left: 0;
-    background: $main-color;
-  }
+    input[type=checkbox] {
+        visibility: hidden;
+    }
+    .checkboxThree {
+        width: 60px;
+        height: 20px;
+        background: #e4e4e4;
+        border-radius: 50px;
+        position: relative;
+    }
+    .checkboxThree label {
+        display: block;
+        width: 30px !important;
+        height: 20px;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        position: absolute;
+        left: 30px;
+        top: 0;
+        z-index: 1;
+        background: gray;
+    }
+    .checkboxThree input[type=checkbox]:checked+label {
+        left: 0;
+        background: $main-color;
+    }
 }
