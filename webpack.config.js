@@ -10,8 +10,8 @@ module.exports ={
         ],
     },
     output:{
-        path:'./app',
-        filename:'./js/[name].js'
+        path:'__dirname +/app/js',
+        filename:'[name].js'
     },
     module:{
         rules:[
