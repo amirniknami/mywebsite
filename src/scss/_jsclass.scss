@@ -34,6 +34,26 @@
     transform: translateY(0) !important;
     transition:all .25s;
 }
+    .js--hover-contact{
+        color:white !important;
+    }
+  .js--hover-contact::before{
+               width:100% !important;
+               transition:  width .15s ;
+           }
+
+           .js--hover-about{
+               color:$main-color !important;
+
+               &:before{
+                   width:0 !important;
+                   transition: width .15s;
+               }
+           }
+
+           .js--right:before{
+               
+           }
 
 
 

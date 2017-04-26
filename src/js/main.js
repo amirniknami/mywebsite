@@ -61,3 +61,17 @@ $(document).ready(function(){
     });
 
 
+  $("#contact-btn").hover(function(){
+      $("#contact-btn ").addClass('js--hover-contact');      
+            
+  },function(){
+      $("#contact-btn ").removeClass('js--hover-contact');      
+  });
+
+
+   $("#about-btn").hover(function(){
+      $("#about-btn ").addClass('js--hover-about');
+  },function(){
+      $("#about-btn ").removeClass('js--hover-about');      
+  });
+
