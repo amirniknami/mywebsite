@@ -72,3 +72,43 @@ $("#about-btn").hover(function() {
 }, function() {
   $("#about-btn ").removeClass('js--hover-about');
 });
+
+// animation
+$(document).ready(function() {
+  // animating the contact button after loading
+  setTimeout(function() {
+    $("#js--header-contact-btn").addClass("animated flash")
+  }, 2000);
+
+  //animating about section
+  $('.js--section-about').waypoint(function(direction) {
+    if (direction == "down") {
+      $('.js--about-img').removeClass("js--about-img").addClass("animated fadeInLeft");
+    }
+  }, {
+    offset: '50%'
+  });
+
+//animating card resume
+  $('.js--card-resume').waypoint(function(direction) {
+    if (direction == "down") {
+      $('.js--card-resume').removeClass("js--card-resume").addClass("animated fadeInUp");
+    }
+  }, {
+    offset: '65%'
+  });
+
+  // animating portfolio title
+
+  $('.js--section-portfolio').waypoint(function(direction) {
+    if (direction == "down") {
+      $('.js--portfolio-title').removeClass("js--portfolio-title").addClass("animated fadeInLeftBig");
+    }
+  }, {
+    offset: '65%'
+  });
+
+
+
+
+});
