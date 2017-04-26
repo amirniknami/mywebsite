@@ -78,7 +78,7 @@ $(document).ready(function() {
   // animating the contact button after loading
   setTimeout(function() {
     $("#js--header-contact-btn").addClass("animated flash")
-  }, 2000);
+  }, 1000);
 
   //animating about section
   $('.js--section-about').waypoint(function(direction) {
