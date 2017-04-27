@@ -21,7 +21,7 @@
                 text-decoration: none;
                 transition:background $transition-time;
                 &:hover{
-                    background:lighten($main-color,10%);
+                    background:lighten($main-color,9%);
                 }
             }
             .form-control {
