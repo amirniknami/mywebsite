@@ -1,5 +1,6 @@
 // handle user clikc on portfolio image . so user can see the picture clearly
 $(document).ready(function() {
+    $("img").unveil();
   $('.card-portfolio img').on('click', function() {
     $(this).toggleClass('js--portfolio-image');
   });
