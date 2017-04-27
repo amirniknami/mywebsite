@@ -19,6 +19,10 @@
                 padding: 10px 40px;
                 background: $main-color;
                 text-decoration: none;
+                transition:background $transition-time;
+                &:hover{
+                    background:lighten($main-color,10%);
+                }
             }
             .form-control {
                 border: 1px solid $main-color;

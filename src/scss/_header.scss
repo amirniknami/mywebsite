@@ -109,6 +109,7 @@ header {
             display: inline-block;
             margin-right: 15px;
             padding: 10px;
+            cursor: pointer;
             transition: background $transition-time;
             &:last-child {
                 border: 1px solid $main-color;

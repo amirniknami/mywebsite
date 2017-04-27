@@ -50,6 +50,10 @@
             font-weight: 300;
             font-size: 1.1rem;
             border-radius: 5px;
+            transition:background $transition-time;
+            &:hover{
+                background: lighten($main-color-shadow,20%);
+            }
             span {
                 font-size: 0.68rem;
             }
