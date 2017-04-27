@@ -4,9 +4,18 @@ footer {
     .copyright {
         color: rgba(255, 255, 255, .7);
         text-align: center;
-        margin-top: 80px;
+        margin-top: 50px;
         margin-bottom: -30px;
     }
+    .newsletter{
+        color:$main-color;
+    }
+     .newsletter-input {
+                background: transparent;
+                border:1px solid $main-color;
+                padding:5px;
+                margin-left: 10px;
+            }
     .footer-container {
         max-width: 1200px;
         flex-wrap: wrap;
@@ -14,20 +23,8 @@ footer {
         padding: 0 20px;
         display: flex;
         justify-content: space-around;
-        ul.footer-nav {
-            li {
-                display: inline-block;
-                margin-right: 10px;
-                a {
-                    color: rgba(255, 255, 255, .8);
-                    cursor: pointer;
-                    span {
-                        color: $main-color;
-                        margin-right: 5px;
-                    }
-                }
-            }
-        }
+            
+           
         ul.social-links {
             li {
                 display: inline;

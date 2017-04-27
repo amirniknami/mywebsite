@@ -11,8 +11,8 @@ module.exports ={
         ],
     },
     output:{
-        path: path.join(__dirname,"app/js"),
-        filename:'[name].js'
+        path: path.join(__dirname,"app"),
+        filename:'js/[name].js'
     },
     module:{
         rules:[

@@ -37,14 +37,16 @@
 
 .js--hover-contact::before {
     width: 100% !important;
-    transition: width 0.15s;
+    border-radius: 200px;
+    transition: width 0.1s;
 }
 
 .js--hover-about {
     color: $main-color !important;
     &:before {
         width: 0 !important;
-        transition: width 0.15s;
+        border-radius: 200px;        
+        transition: width 0.1s;
     }
 }
 

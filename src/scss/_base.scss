@@ -43,7 +43,7 @@ html {
 }
 
 .flex-container {
-    max-width: 1000px;
+    max-width: $wrapper-width;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 0 20px;
@@ -54,5 +54,5 @@ html {
 .star:before {
     content: "\2605";
     position: absolute;
-    color: #282c34;
+    color: $second-color;
 }

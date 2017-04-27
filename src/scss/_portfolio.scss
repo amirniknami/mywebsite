@@ -1,6 +1,6 @@
 #portfolio {
     background-image: url('../img/header-bg-2.jpg');
-    background-color: #282c34;
+    background-color: $second-color;
     background-blend-mode: multiply;
     background-size: cover;
     background-attachment: fixed;
@@ -17,8 +17,11 @@
             width: 100%;
             height: auto;
             opacity: 0.35;
-            transition: opacity 0.4s, transform 0.4s;
+            transition: opacity $transition-time, transform $transition-time;
             cursor: pointer;
+            &:hover{
+                opacity: 1;
+            }
         }
         .rating {
             width: 100%;
@@ -40,7 +43,7 @@
             margin-bottom: 20px;
         }
         a.card-link {
-            background: rgba(0, 150, 136, .4);
+            background: $main-color-shadow;
             padding: 5px 15px;
             color: white;
             text-decoration: none;

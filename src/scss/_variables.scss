@@ -1,4 +1,7 @@
 $main_color:#009688;
+$main-color-shadow:rgba(0, 150, 136, .4);
+$transition-time:.2s;
+$second-color:#282c34;
 $font-size-desktop:20px;
 $font-size-tablet:18px;
 $font-size-phone:16px;
@@ -6,4 +9,5 @@ $padding-main:20px;
 $padding-top-main:80px;
 $padding-bottom-main:80px;
 $main-text-color:#555;
-$footer-bg: #282c34;
+$footer-bg: darken($second-color,8%);
+$wrapper-width:960px;
