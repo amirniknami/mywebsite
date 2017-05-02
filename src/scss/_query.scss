@@ -7,16 +7,16 @@
         padding: 40px;
     }
     nav.top-nav {
-        display: none;
+        display: none !important;
     }
     header .mobile-menu {
-        display: block;
+        display: inline-block;
     }
     .header-btn a {
         margin-bottom: 25px;
     }
     .mobile-nav {
-        display: block !important;
+        display: inline-block !important;
         position: fixed;
         bottom: 0;
         left: 0;
