@@ -8,9 +8,10 @@
     height: auto;
     background: rgba(40, 44, 52, .9);
     position: fixed;
-    width: 100%;
     top: 0;
-    left: 0;
+    width:100%;
+    left:50%;
+    transform: translate(-50%,0);
     img {
         height: 60px;
         width: 60px;
@@ -45,7 +46,7 @@
     color: $main-color !important;
     &:before {
         width: 0 !important;
-        border-radius: 200px;        
+        border-radius: 200px;
         transition: width 0.1s;
     }
 }
