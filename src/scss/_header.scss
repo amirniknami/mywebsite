@@ -95,7 +95,6 @@ header {
 }
 
 .top-header {
-    max-width: 1170px;
     margin: auto;
     padding: 50px 15px 0 15px;
     display: flex;
@@ -104,7 +103,7 @@ header {
     z-index: 200 !important;
     img {
         width: 100px;
-        height: auto;
+        height: 100px;
         margin-top: -20px;
     }
     nav.top-nav {

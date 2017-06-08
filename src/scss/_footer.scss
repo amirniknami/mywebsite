@@ -23,8 +23,8 @@ footer {
         padding: 0 20px;
         display: flex;
         justify-content: space-around;
-            
-           
+
+
         ul.social-links {
             li {
                 display: inline;
@@ -38,4 +38,12 @@ footer {
             }
         }
     }
+}
+
+.btn-footer{
+  padding: 6px 20px;
+  background: $main-color;
+  border: none;
+  color:white;
+  margin-bottom: 15px;
 }
