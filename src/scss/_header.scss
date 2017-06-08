@@ -96,6 +96,7 @@ header {
 
 .top-header {
     margin: auto;
+    max-width: $wrapper-width;
     padding: 50px 15px 0 15px;
     display: flex;
     flex-wrap: wrap;
