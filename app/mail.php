@@ -2,12 +2,14 @@
          $to = "amirnweb@gmail.com";
          $subject = "mail from" .$_POST['name'] ."and email : " .$_POST['email'];
          $message = $_post['message'];
-         $header = "";
-         $retval = mail ($to,$subject,$message,$header);
+         $msg = wordwrap($message,70);
 
-         if( $retval == true ) {
-            header("Location: http://www.amirniknami.info");
-         }else {
-            echo "Message could not be sent...";
-         }
-      ?>
+               if(mail($to,$subject,$msg)){
+
+                                 header("Location:http://amirniknami.herokuapp.com");
+                          }
+                             else{
+                                  echo "could not send message";
+                               }
+         
+?>
