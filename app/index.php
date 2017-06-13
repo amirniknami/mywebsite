@@ -84,7 +84,7 @@
             <img class="js--about-img" src="img/me.jpg" alt="Amir Niknami">
             <p>My name is Amir Niknami . I am a computer expert actually I am expert at Web Development – Also I am interested
                 in Guitar and my hobbies is watching movies and listening to music and doing exercise.
-                 i am front-end and backend developer . in brief i am full stack web developer. lately I got into
+                 i am front-end and backend developement in briefe i am full stack web developer. lately I got into
                 the writing and maybe someday I'll be a great writer.who knows!
             </p>
         </div>
@@ -105,7 +105,7 @@
                     <div class="rating">
                         <span class="star">☆</span ><span  class="star" >☆</span><span class="star">☆</span><span class="star">☆</span><span>☆</span></div>
                 </div>
-                <p>Html5 and Css3 are the fundemental of web . you could not be a web Developer without knowing them</p>
+                <p>Html5 and Css3 are the fundemental of web you could not be a web Developer without knowing them</p>
             </div>
             <!-- end card-resume  -->
             <div class="card-resume js--card-resume">
@@ -150,7 +150,7 @@
                         <span class="star">☆</span ><span  class="star" >☆</span><span class="star">☆</span><span>☆</span><span>☆</span></div>
                 </div>
                 <p>Single page web application are the essential part of web . because nowadays people are doing their most
-                    jobs with Web Application</p>
+                    job with Web Application</p>
             </div>
             <!-- end card-resume  -->
             <div class="card-resume js--card-resume">
@@ -224,7 +224,7 @@
                     <img src="img/moshavers.png" />
                 </noscript>
                 <h3><a href="http://moshavers.com">moshavers</a></h3>
-                <p>moshavers was the second part of my job . it is well designed and designed with reponsivity in mind and it
+                <p>moshavers was the second part of my job . it is well designed and designed with reposivity in mind and it
                     was developed from scratch</p>
                 <a class="card-link" href="http://moshavers.com">visit <span class="fa fa-arrow-right"></span> </a>
             </div>

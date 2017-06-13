@@ -68,6 +68,10 @@
 }
 
 @media screen and (max-width:760px) {
+  section{
+    padding: 40px 0 !important;
+  }
+
     #about .description {
         flex-direction: column;
         img,
@@ -104,4 +108,19 @@
     .card-resume {
         width: 100% !important;
     }
+}
+
+@media screen and (max-width:480px) {
+  section {
+    padding:30px 0 !important;
+
+  }
+  #about .description  {
+    p{
+      width:100%;
+    }
+    img{
+      margin-bottom: 25px;
+    }
+  }
 }
